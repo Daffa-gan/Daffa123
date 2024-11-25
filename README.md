@@ -1,49 +1,23 @@
-# Daffa123
-
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Saya</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body{
-            overflow-x: hidden;
-            position: relative;
-            width: 100%;
-        }
-        .custom-btn {
-            padding: 12px 30px;
-            border-radius: 30px;
-        }
-        .custom-btn:hover {
-            background: #0e5bff ;
-        }
-        .section {
-            padding: 80px 0;
-        }
-        .section-title {
-            color: #0066ff;
-            margin-bottom: 50px ;
-        }
-        .icons{
-            font-size: 30px; margin: 0 10px;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio saya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm">
         <div class="container">
-          <a class="navbar-brand fw-bold" style="color: #0066ff;" href="#home">Portofolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+          <a class="navbar-brand fw-bold text-primary" href="#home">Portofolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link mx-2" href="#home">Home</a>
+                <a class="nav-link mx-2" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link mx-2" href="#about">About</a>
@@ -52,7 +26,7 @@
                 <a class="nav-link mx-2" href="#education">Education</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-2" href="#find-me">FindMe</a>
+                <a class="nav-link mx-2" href="#find-me">Find Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link mx-2" href="#contact">Contact</a>
@@ -62,156 +36,167 @@
         </div>
       </nav>
 
-    <!-- Hero Section -->
-    <section id="home">
-            <div class="p-5 text-center bg-body-tertiary">
-              <div class="container py-5">
-                <img src="me-removebg-preview.png" alt="Muhammad Daffa" width="300" class="rounded-circle">
-                <h1 class="text-body-emphasis" style=" color: #0066ff !important;">Halo, semuanya</h1>
-                <h1 class="text-body-emphasis" style=" color: #0066ff !important;">Perkenalkan nama saya Muhammad Daffa</h1>
-                <p class="col-lg-8 mx-auto lead">
-                    XI Tel 12
-                </p>
-                <p class="col-lg-8 mx-auto lead" style=" margin-top: 30px;">
-                  Saya adalah seorang pelajar di SMK Telkom Jakarta dan jurusan saya adalah Rekayasa Perangkat Lunak
-                </p>
-              </div>
-            </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about" class="section bg-light">
+      <!-- Hero -->
+      <section id="home" class="pt-5 mt-5 bg-light">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="me-removebg-preview.png" class="d-block mx-lg-auto img-fluid rounded-circle bg-primary" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Muhammad Daffa Ramadansyah Alfahidi</h1>
+            <p class="lead">XI Tel 12</p>
+            <p class="lead">Saya adalah seorang pelajar di SMK Telkom Jakarta dan jurusan saya adalah Rekayasa Perangkat Lunak.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="6xcd1" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- About -->
+       <section id="about" class="py-5 mt-5">
         <div class="container">
-            <h2 class="text-center section-title">About Me</h2>
+            <h2 class="text-primary text-center mb-5">About me</h2>
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <div class="ratio ratio-16x9 shadow rounded">
-                        <video 
-                            class="w-100" 
-                            controls
-                            poster="thumbnail.jpg">
+                        <video class="w-100" controls poster="thumbnail.jpg">
                             <source src="perkenalan.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
                         </video>
-                    </div>
                 </div>
             </div>
         </div>
-    </section>
+        </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section ">
-        <div class="container">
-            <h2 class="text-center section-title">Education & Experience</h2>
-            
-            <!-- Organizational Experience -->
-            <div class="card shadow-sm mb-5">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">Organizational Experience</h4>
-                </div>
-                <div class="card-body">
-                    <div class="table-responsive">
+        <!-- Education -->
+        <section id="education" class="bg-light mt-5 py-5">
+            <div class="container">
+                <h2 class="text-primary text-center mb-5">Education & Experience</h2>
+
+                <!-- Organization Experience -->
+                <div class="card mb-5 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Organizational Experience</h4>
+                    </div>
+                    <div class="card-body">
+
                         <table class="table table-hover">
                             <thead class="table-light">
-                                <tr>
-                                    <th>Tahun</th>
-                                    <th>Peran/Posisi</th>
-                                    <th>Deskripsi</th>
-                                </tr>
+                              <tr>
+                                <th>#</th>
+                                <th>First</th>
+                                <th>Last</th>
+                              </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>2023 - Sekarang</td>
-                                    <td>Ketua OSIS</td>
-                                    <td>Memimpin dan mengoordinasikan kegiatan organisasi siswa, mengadakan berbagai event sekolah dan program pengembangan siswa.</td>
-                                </tr>
-                                <tr>
-                                    <td>2022 - 2023</td>
-                                    <td>Anggota Ekskul Robotik</td>
-                                    <td>Berpartisipasi dalam kompetisi robotik tingkat provinsi, mengembangkan prototype robot edukasi.</td>
-                                </tr>
-                                <!-- Tambahkan baris sesuai pengalaman -->
+                              <tr>
+                                <td>1</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                              </tr>
+                              <tr>
+                                <td>2</td>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                              </tr>
+                              <tr>
+                                <td>3</td>
+                                <td>Larry the Bird</td>
+                                <td>memimpin dan mengoordinasikan kegiatan organisasi siswa, mengadakan berbagai event sekolah dan program pengembangan siswa.</td>
+                              </tr>
                             </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+                          </table>
 
-            <!-- Educational Background -->
-            <div class="card shadow-sm">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">Educational Background</h4>
-                </div>
-                <div class="card-body">
-                    <div class="table-responsive">
+                    </div>
+
+                  <!-- Educational Background -->
+                  <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Educational Background</h4>
+                    </div>
+                    <div class="card-body">
                         <table class="table table-hover">
                             <thead class="table-light">
-                                <tr>
-                                    <th>Sekolah</th>
-                                    <th>Tahun</th>
-                                    <th>Deskripsi</th>
-                                </tr>
+                              <tr>
+                                <th>#</th>
+                                <th>First</th>
+                                <th>Last</th>
+                              </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>[Nama SMK]</td>
-                                    <td>2021 - Sekarang</td>
-                                    <td>Jurusan RPL dengan fokus pada pengembangan aplikasi web dan mobile. Aktif dalam berbagai proyek sekolah.</td>
-                                </tr>
-                                <tr>
-                                    <td>[Nama SMP]</td>
-                                    <td>2018 - 2021</td>
-                                    <td>Aktif dalam kegiatan akademik dan non-akademik. Meraih peringkat 3 besar paralel.</td>
-                                </tr>
-                                <!-- Tambahkan baris sesuai riwayat pendidikan -->
+                              <tr>
+                                <th>1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                              </tr>
+                              <tr>
+                                <th>2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                              </tr>
+                              <tr>
+                                <th>3</th>
+                                <td>Larry the Bird</td>
+                                <td>Bejat</td>
+                              </tr>
                             </tbody>
-                        </table>
+                          </table>
+                    </div>
+                  </div>
+                  
+            <div>
+        </section>
+
+        <!-- Find me -->
+        <section id="find-me" class="py-5 mt-5 text-center">
+            <div class="container">
+                <h2 class="text-primary mb-5">Find Me</h2>
+                <p class="mb-4">
+                    Email: muhammaddaffa2209206@gmail.com<br>
+                    Telepon: 08111452297
+                </p>
+                <div class="justify-content-center d-flex gap-4">
+                    <a href="#" target="_blank" class="fs-3">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" target="_blank" class="fs-3">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+         <section id="contact" class="bg-light mt-5 py-5">
+            <div class="container">
+                <h2 class="mb-0 text-primary text-center mb-5">Contact me</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                                <label for="floatingPassword">Your name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px; resize: none;"></textarea>
+                                <label for="floatingTextarea2">Comments</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 rounded-pill" id="Submit">Submit</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+         </section>
 
-    <!-- Find Me Section -->
-    <section id="find-me" class="section">
-        <div class="container text-center">
-            <h2 class="section-title">Find Me</h2>
-            <p>
-                Email: your.email@example.com<br>
-                Telepon: +62 xxx-xxxx-xxxx
-            </p>
-            <a href="https://wa.me/628111452297" target="_blank" class="icons"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://www.instagram.com/mdapa.ra/?next=%2F" target="_blank" class="icons"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="text-center section-title">Contact Me</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form class="p-4 shadow-sm rounded bg-white">
-                        <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" rows="4" placeholder="Your Message" style="resize: none;" required></textarea>
-                        </div>
-                        <button type="button" class="btn btn-primary w-100 custom-btn" id="liveToastBtn">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <!-- Toast -->
-        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+         <!-- Toast -->
+         <div class="toast-container position-fixed bottom-0 end-0 p-3">
             <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
               <div class="toast-header">
-                <strong class="me-auto" style="color: #60a5fa;">Notification</strong>
+                <strong class="me-auto text-primary">Notification</strong>
                 <small>Now</small>
                 <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
               </div>
@@ -220,28 +205,27 @@
               </div>
             </div>
           </div>
-    </section>
 
-    <!-- Footer -->
-    <div class="container">
-        <hr>
-        <footer class="py-3 my-4">
-          <p class="text-center text-body-secondary">© 2024 Muhammad Daffa</p>
-        </footer>
-      </div>
+          <!-- Footer -->
+          <div class="container">
+            <hr>
+            <footer class="py-3 my-4">
+              <p class="text-center text-body-secondary">© 2024 Muhammad Daffa</p>
+            </footer>
+          </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/55e841a649.js" crossorigin="anonymous"></script>
-    <script>
-        const toastTrigger = document.getElementById('liveToastBtn')
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/55e841a649.js" crossorigin="anonymous"></script>
+      <script>
+      const toastTrigger = document.getElementById('Submit')
         const toastLiveExample = document.getElementById('liveToast')
 
         if (toastTrigger) {
-            const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
-            toastTrigger.addEventListener('click', () => {
-                toastBootstrap.show()
-            })
-    }
-    </script>
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+        toastTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+        })
+        }
+      </script>
 </body>
 </html>
