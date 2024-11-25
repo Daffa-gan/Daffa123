@@ -181,7 +181,7 @@
                 Telepon: +62 xxx-xxxx-xxxx
             </p>
             <a href="https://wa.me/628111452297" target="_blank" class="icons"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="#" target="_blank" class="icons"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/mdapa.ra/?next=%2F" target="_blank" class="icons"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </section>
 
