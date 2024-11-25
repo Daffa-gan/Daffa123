@@ -241,7 +241,7 @@
             toastTrigger.addEventListener('click', () => {
                 toastBootstrap.show()
             })
-}
+    }
     </script>
 </body>
 </html>
