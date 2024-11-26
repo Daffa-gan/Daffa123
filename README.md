@@ -72,81 +72,79 @@
 
         <!-- Education -->
         <section id="education" class="bg-light mt-5 py-5">
-            <div class="container">
-                <h2 class="text-primary text-center mb-5">Education & Experience</h2>
+          <div class="container">
+              <h2 class="text-primary text-center mb-5">Education & Experience</h2>
 
-                <!-- Organization Experience -->
-                <div class="card mb-5 shadow-sm">
-                    <div class="card-header bg-primary text-white">
-                        <h4 class="mb-0">Organizational Experience</h4>
-                    </div>
-                    <div class="card-body">
-
-                        <table class="table table-hover">
-                            <thead class="table-light">
-                              <tr>
-                                <th>#</th>
-                                <th>First</th>
-                                <th>Last</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>1</td>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                              </tr>
-                              <tr>
-                                <td>2</td>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                              </tr>
-                              <tr>
-                                <td>3</td>
-                                <td>Larry the Bird</td>
-                                <td>memimpin dan mengoordinasikan kegiatan organisasi siswa, mengadakan berbagai event sekolah dan program pengembangan siswa.</td>
-                              </tr>
-                            </tbody>
-                          </table>
-
-                    </div>
-
-                  <!-- Educational Background -->
-                  <div class="card shadow-sm">
-                    <div class="card-header bg-primary text-white">
-                        <h4 class="mb-0">Educational Background</h4>
-                    </div>
-                    <div class="card-body">
-                        <table class="table table-hover">
-                            <thead class="table-light">
-                              <tr>
-                                <th>#</th>
-                                <th>First</th>
-                                <th>Last</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <th>1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                              </tr>
-                              <tr>
-                                <th>2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                              </tr>
-                              <tr>
-                                <th>3</th>
-                                <td>Larry the Bird</td>
-                                <td>Bejat</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                    </div>
+              <!-- Organization Experience -->
+              <div class="card mb-5 shadow-sm">
+                  <div class="card-header bg-primary text-white">
+                      <h4 class="mb-0">Organizational Experience</h4>
                   </div>
-                  
-            <div>
+                  <div class="card-body">
+                      <table class="table table-hover">
+                          <thead class="table-light">
+                              <tr>
+                                  <th>#</th>
+                                  <th>First</th>
+                                  <th>Last</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1</td>
+                                  <td>Mark</td>
+                                  <td>Otto</td>
+                              </tr>
+                              <tr>
+                                  <td>2</td>
+                                  <td>Jacob</td>
+                                  <td>Thornton</td>
+                              </tr>
+                              <tr>
+                                  <td>3</td>
+                                  <td>Larry the Bird</td>
+                                  <td>memimpin dan mengoordinasikan kegiatan organisasi siswa, mengadakan berbagai event sekolah dan program pengembangan siswa.</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+
+              <!-- Educational Background -->
+              <div class="card shadow-sm">
+                  <div class="card-header bg-primary text-white">
+                      <h4 class="mb-0">Educational Background</h4>
+                  </div>
+                  <div class="card-body">
+                      <table class="table table-hover">
+                          <thead class="table-light">
+                              <tr>
+                                  <th>#</th>
+                                  <th>First</th>
+                                  <th>Last</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1</td>
+                                  <td>Mark</td>
+                                  <td>Otto</td>
+                              </tr>
+                              <tr>
+                                  <td>2</td>
+                                  <td>Jacob</td>
+                                  <td>Thornton</td>
+                              </tr>
+                              <tr>
+                                  <td>3</td>
+                                  <td>Larry the Bird</td>
+                                  <td>Bejat</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
         </section>
 
         <!-- Find me -->
